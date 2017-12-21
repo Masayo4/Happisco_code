@@ -8,7 +8,7 @@ function processImage() {
     // **********************************************
 
     // Replace the subscriptionKey string value with your valid subscription key.
-    var subscriptionKey = "4909e3969a1c4f18ab7f48dcd1443988";
+    var subscriptionKey = 
 
     // Replace or verify the region.
     //
@@ -18,8 +18,7 @@ function processImage() {
     //
     // NOTE: Free trial subscription keys are generated in the westcentralus region, so if you are using
     // a free trial subscription key, you should not need to change this region.
-    var uriBase = "https://westcentralus.api.cognitive.microsoft.com/face/v1.0/detect";
-
+    var uriBase = 
     // Request parameters.
     var params = {
         "returnFaceId": "true",
