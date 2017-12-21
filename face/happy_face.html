@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HappyFaces</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script src="happy_face.js"></script>
+</head>
+<body>
+  <h1>顔表情検出:</h1>
+   <p>画像URLを入力してボタンを押すと検出</p>
+  <br><br>
+  分析する写真URL: <input type="text" name="inputImage" id="inputImage" value="http://web.sfc.keio.ac.jp/~t16588mt/DSC_1242.jpg" />
+  <button onclick="processImage()">分析</button>
+  <br><br>
+      <div id="output"></div>
+      <div id="imageDiv" style="width:420px; display:table-cell;">
+          Source image:
+          <br><br>
+          <img id="sourceImage" width="400"/>
+      </div>
+  </div>
+  <ul>
+    <p>imgサンプル</p>
+    <li>http://web.sfc.keio.ac.jp/~t16588mt/DSC_1242.jpg(三人集合写真)</li>
+    <li>http://blog-imgs-36.fc2.com/y/u/n/yunomocchan/2590.jpg(悲しい)</li>
+    <li>https://i.ytimg.com/vi/PsccSuBhf4s/maxresdefault.jpg(驚き)</li>
+    <li>https://scontent-nrt1-1.cdninstagram.com/t51.2885-15/e35/21690337_358258851277912_7864698904162336768_n.jpg(幸せ集合人数多め)</li>
+  </ul>
+  </body>
+  </html>
